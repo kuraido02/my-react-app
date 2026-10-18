@@ -8,7 +8,7 @@ function Food() {
         <ul>
             <li>Apple</li>
             <li>{food1}</li>
-            <li>Banana</li>
+            <li>{food2}</li>
         </ul>
     );
 }
