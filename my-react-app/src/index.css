@@ -13,3 +13,10 @@ img {
   width: 200px;
   height: 200px;
 }
+
+.card .card-image {
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
