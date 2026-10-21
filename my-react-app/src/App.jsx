@@ -6,9 +6,9 @@ function App() {
 
   return(
     <>
-      <Header></Header>
-      <Footer></Footer>
-      <Food></Food>
+      <Header/>
+      <Food/>
+      <Footer/>
     </>
   );
 }
