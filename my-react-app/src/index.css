@@ -31,3 +31,12 @@ img {
   font-family: Arial, sans-serif;
   color: hsl(0, 0%, 30%);
 }
+
+.button {
+  background-color: hsl(0, 0%, 20%);
+  color: gray;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
