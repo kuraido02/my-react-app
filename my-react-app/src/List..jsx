@@ -7,7 +7,7 @@ function List() {
                     {id: 3, name: "coconut", calories: 159}, 
                     {id: 4, name: "pineapple", calories: 37}];
 
-    const listItems = fruits.map(fruit => <li key={fruit.id}>{fruit.name}</li>);
+    const listItems = fruits.map(fruit => <li key={fruit.id}>{fruit.name}: &nbsp; <b>{fruit.calories}</b></li>);
 
     return(<ul>{listItems}</ul>);
 }
