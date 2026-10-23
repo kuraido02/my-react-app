@@ -7,7 +7,7 @@ function App() {
   return(
     <>
       <Card/>
-      <Student/>
+      <Student name = "Gengar" age = {250}/>
       <Button/>
     </>
   );
