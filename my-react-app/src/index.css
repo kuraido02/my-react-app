@@ -42,3 +42,21 @@ img {
 .pokemon p {
   margin: 0;
 }
+
+.welcome-message {
+  font-size: 2.5em;
+  background-color: hsl(0, 0%, 20%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  font-size: 2.5em;
+  background-color: hsl(0, 64%, 21%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
