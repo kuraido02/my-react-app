@@ -8,6 +8,7 @@ function App() {
     <>
       <Card/>
       <Pokemon name="Gengar" age={250} isPokemon={true}/>
+      <Pokemon name="Gengar" age={250} isPokemon={true}/>
       <Button/>
     </>
   );

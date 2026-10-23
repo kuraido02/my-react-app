@@ -32,3 +32,13 @@ img {
   color: hsl(0, 0%, 30%);
 }
 
+.pokemon {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 2px;
+  border: 1px solid hsla(0, 0%, 50%, 0.8);
+}
+
+.pokemon p {
+  margin: 0;
+}
