@@ -25,8 +25,8 @@ function App() {
       <UserGreeting isLoggedIn={true} username="Gengar"/>
       <Card/>
       <Pokemon name="Gengar" age={250} isPokemon={true}/>
-      <List items={fruits} category="Fruits" />
-      <List items={vegetables} category="Vegetables" />
+      {fruits.length > 0 ? <List items={fruits} category="Fruits" /> : null}
+      {vegetables.length > 0 ? <List items={vegetables} category="Vegetables" /> : null}
       <Button/>
     </>
   );
