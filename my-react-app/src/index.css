@@ -45,7 +45,7 @@ img {
 
 .welcome-message {
   font-size: 2.5em;
-  background-color: hsl(0, 0%, 20%);
+  background-color: hsl(309, 44%, 18%);
   color: white;
   padding: 10px;
   border-radius: 5px;
@@ -59,4 +59,28 @@ img {
   padding: 10px;
   border-radius: 5px;
   margin: 0;
+}
+
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(309, 44%, 18%);
+}
+
+.list-items li {
+  font-size: 2em;
+  list-style: none;
+  color: black;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  color: hsl(300, 44%, 36%);
+  cursor: pointer;
 }
