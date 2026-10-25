@@ -6,27 +6,26 @@ import List from './List.jsx';
 
 function App() {
 
-  const fruits = [
-                  {id: 1, name: "apple",    calories: 95}, 
-                  {id: 2, name: "banana", calories: 105}, 
-                  {id: 3, name: "coconut", calories: 159}, 
-                  {id: 4, name: "pineapple", calories: 37},
-                  {id: 5, name: "orange", calories: 45}];
+  const pokeData = [
+                  {id: 1, name: "Type",    data: "Ghost/ Poison"}, 
+                  {id: 2, name: "Species", data: "Shadow Pokémon"}, 
+                  {id: 3, name: "Height", data: "1.5 m"}, 
+                  {id: 4, name: "Weight", data: "40.5 kg"},
+                  {id: 5, name: "Abilities", data: "Cursed Body"}];
 
-  const vegetables = [
-                      {id: 6, name: "potatoes", calories: 110}, 
-                      {id: 7, name: "carrots", calories: 25}, 
-                      {id: 8, name: "pumpkin", calories: 100}, 
-                      {id: 9, name: "corn", calories: 63},
-                      {id: 10, name: "broccoli", calories: 50}];
+  const moves = [
+                      {id: 6, name: "Dark Pulse", data: "Dark, 80"}, 
+                      {id: 7, name: "Shadow Ball", data: "Ghost, 80"}, 
+                      {id: 8, name: "Sludge Wave", data: "Poison, 95"}, 
+                      {id: 9, name: "Phantom Force", data: "Ghost, 90"}];
 
   return(
     <>
       <UserGreeting isLoggedIn={true} username="Gengar"/>
       <Card/>
       <Pokemon name="Gengar" age={250} isPokemon={true}/>
-      {fruits.length > 0 && <List items={fruits} category="Fruits" />}
-      {vegetables.length > 0 && <List items={vegetables} category="Vegetables" />}
+      {pokeData.length > 0 && <List items={pokeData} category="Pokémon Data" />}
+      {moves.length > 0 && <List items={moves} category="Powerful Moves" />}
       <Button/>
     </>
   );
