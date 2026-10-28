@@ -1,17 +1,10 @@
 
 function Button() {
 
-    const styles = {
-        backgroundColor: "hsl(0, 0%, 20%)",
-        color: "gray",
-        padding: "10px 20px",
-        borderRadius: "5px",
-        border: "none",
-        cursor: "pointer",
-    }
+    const handleClick = (e) => e.target.textContent = "GENGAR!";
 
     return(
-        <button style={styles}>Click me</button>
+        <button onClick={(e) => handleClick(e)}>Click me</button>
     );
 }
 
