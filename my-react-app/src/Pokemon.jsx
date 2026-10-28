@@ -1,11 +1,14 @@
-
+import Card from "./Card";
 
 function Pokemon(props){
     return(
-        <div className="pokemon">
-            <p>Name: {props.name}</p>
-            <p>Level: {props.age}</p>
-            <p>Pokémon: {props.isPokemon ? "Yes" : "No"}</p>
+        <div className="profile-row">
+            <Card /> {}
+            <div className="pokemon">
+                <p>Name: Gengar</p>
+                <p>Level: 99</p>
+                <p>Pokémon: Yes</p>
+            </div>
         </div>
     );
 }
