@@ -124,6 +124,12 @@ body {
 
 .pokemon p {
   margin: 0;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.pokemon p:hover {
+  color: var(--accent-red);
 }
 
 /* ---------- Profile row: card + info side by side ---------- */
