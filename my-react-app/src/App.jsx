@@ -4,6 +4,7 @@ import Pokemon from './Pokemon.jsx';
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
 import MyComponent from './MyComponent.jsx';
+import Counter from './Counter.jsx';
 
 function App() {
 
@@ -28,6 +29,7 @@ function App() {
       {moves.length > 0 && <List items={moves} category="Powerful Moves" />}
       <Button/>
       <MyComponent/>
+      <Counter/>
     </>
   );
 }
