@@ -3,6 +3,7 @@ import Button  from './Button.jsx'
 import Pokemon from './Pokemon.jsx';
 import UserGreeting from './UserGreeting.jsx';
 import List from './List.jsx';
+import MyComponent from './MyComponent.jsx';
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       {pokeData.length > 0 && <List items={pokeData} category="Pokémon Data" />}
       {moves.length > 0 && <List items={moves} category="Powerful Moves" />}
       <Button/>
+      <MyComponent/>
     </>
   );
 }
