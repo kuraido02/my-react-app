@@ -207,3 +207,30 @@ body {
   .list-items li,
   .pokemon { font-size: 1.4rem; }
 }
+
+.counter-container {
+  text-align: center;
+}
+
+.count-display {
+  font-size: 5em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: var(--purple-light);
+  color: var(--accent-red);
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.counter-button:hover {
+  background-color: var(--purple);
+}
