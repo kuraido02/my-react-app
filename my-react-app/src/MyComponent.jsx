@@ -15,7 +15,7 @@ function MyComponent() {
     }
 
     function handleModelChange(event) {
-
+        setCar(c => ({...c, model: event.target.value}));
     }
 
     return(
