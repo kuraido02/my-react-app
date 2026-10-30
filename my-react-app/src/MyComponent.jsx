@@ -2,14 +2,16 @@ import React, {useState} from "react";
 
 function MyComponent() {
 
-    const [car, setCar] = useState({year: "2026", make: "Ford", model: "Mustang"});
+    const [car, setCar] = useState({year: 2024, make: "Ford", model: "Mustang"});
 
     function handleYearChange(event) {
         
+        setCar(c => ({...c, year: event.target.value}));
     }
 
     function handleMakeChange(event) {
 
+        setCar(c => ({...c, make: event.target.value}));
     }
 
     function handleModelChange(event) {
