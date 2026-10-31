@@ -29,7 +29,16 @@ function MyComponent() {
 
     return(
         <div>
-           
+           <h2>List of Car Objects</h2>
+           <ul>
+
+           </ul>
+
+           <input type="number" value={carYear} onChange={handleYearChange}/><br/>
+           <input type="text" value={carMake} onChange={handleMakeChange} placeholder="Enter car make"/><br/>
+           <input type="text" value={carModel} onChange={handleModelChange} placeholder="Enter car model"/><br/>
+
+           <button onClick={handleAddCar}>Add Car</button>
         </div>);
 
 }
