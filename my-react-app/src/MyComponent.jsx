@@ -3,7 +3,7 @@ import React, {useState} from "react";
 function MyComponent() {
 
     const [cars, setCars] = useState([]);
-    const [carYear, setCarYear] = useState(new Date.getFullYear());
+    const [carYear, setCarYear] = useState(new Date().getFullYear());
     const [carMake, setCarMake] = useState("");
     const [carModel, setCarModel] = useState("");
 
@@ -16,15 +16,15 @@ function MyComponent() {
     }
 
     function handleYearChange(event) {
-
+        setCarYear(event.target.value);
     }
 
     function handleMakeChange(event) {
-
+        setCarMake(event.target.value);
     }
 
     function handleModelChange(event) {
-
+        setCarModel(event.target.value);
     }
 
     return(
