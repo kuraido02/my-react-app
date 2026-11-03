@@ -28,7 +28,7 @@ function App() {
       <Pokemon name="Gengar" age={99} isPokemon={true}/>
       {pokeData.length > 0 && <List items={pokeData} category="Pokémon Data" />}
       {moves.length > 0 && <List items={moves} category="Powerful Moves" />}
-      <MyComponent/>
+      <ToDoList/>
       <Counter/>
     </>
   );
