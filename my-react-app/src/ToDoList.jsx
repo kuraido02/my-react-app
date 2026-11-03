@@ -58,7 +58,7 @@ function ToDoList() {
                         ☝️
                     </button>
                     <button 
-                        className="down-button"
+                        className="move-button"
                         onClick={() => moveTaskDown(index)}>
                         👇
                     </button>
