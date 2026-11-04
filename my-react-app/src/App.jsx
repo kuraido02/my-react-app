@@ -31,6 +31,7 @@ function App() {
       {moves.length > 0 && <List items={moves} category="Powerful Moves" />}
       <ToDoList/>
       <Counter/>
+      <Bang/>
     </>
   );
 }
